@@ -1,6 +1,6 @@
 ## 浏览器器输入网址后发生了什么？
 
-![image-20220220200822197](/Users/wangyafei/Library/Application Support/typora-user-images/image-20220220200822197.png)
+![image-20220220200822197](../_images/image-20220220200822197.png)
 
 1、URL解析（DNS解析）
 
@@ -26,9 +26,9 @@
 
       本地域名服务器向根域名服务器的查询一般都是采用迭代查询。所谓迭代查询就是当根域名服务器收到本地域名服务器发出的查询请求报文后，要么告诉本地服务器下一步查询哪一个域名服务器，然后本地域名服务器进行后续查询。（而不是替代本地域名服务器进行后续查询） 
 
-![image-20220220194256850](/Users/wangyafei/Library/Application Support/typora-user-images/image-20220220194256850.png)
+![image-20220220194256850](../_images/image-20220220194256850.png)
 
-![image-20220220194634724](/Users/wangyafei/Library/Application Support/typora-user-images/image-20220220194634724.png)
+![image-20220220194634724](../_images/image-20220220194634724.png)
 
 
 
@@ -36,7 +36,7 @@
 
 ### 三次握手
 
-![image-20220220195235582](/Users/wangyafei/Library/Application Support/typora-user-images/image-20220220195235582.png)
+![image-20220220195235582](../_images/image-20220220195235582.png)
 
 主要问题：
 
@@ -51,7 +51,7 @@
 
 ### 四次挥手
 
-![image-20220220195304153](/Users/wangyafei/Library/Application Support/typora-user-images/image-20220220195304153.png)
+![image-20220220195304153](../_images/image-20220220195304153.png)
 
 主要问题：
 
