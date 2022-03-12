@@ -1,0 +1,17 @@
+- 进程
+- 线程
+- cpu
+- 缓存
+  - 三级缓存
+  - 缓存一致性
+  - 缓存行（64bit）
+  - 缓存行对齐（@Contended）
+  - DCL（double check lock）
+- 对象在内存的存储布局
+  - markword：一般是8个字节
+  - 类型指针（class pointer）：4/8字节
+  - 实例数据（Instance data）
+  - 对齐（padding）：一般整个对象占用8个字节整数倍，不足话是这个用于补齐
+- 锁
+  - CAS
+  - 自旋锁
